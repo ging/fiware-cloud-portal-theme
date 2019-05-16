@@ -1,0 +1,137 @@
+// import font
+@import "fonts/neotech-fontface";
+
+// import styles from default theme
+@import "/themes/default/styles";
+
+//Global
+//********************************
+body {
+	font-family: "NeoTechRegular";
+  font-weight: normal;
+}
+#content_body{
+	padding: 20px 25px 50px 250px;
+}
+h3{
+	color: #48b9c9;
+}
+h1{
+	color: #193B6B;
+}
+
+//buttons
+.btn-sm{
+	border-radius: 0;
+}
+
+//modals
+//********************************
+.modal-content{
+	border-radius: 0;
+}
+.modal-footer .btn{
+	margin-left: 5px;
+}
+
+//login
+//********************************
+#splash {
+		.login{
+			box-shadow: none;
+			top: 130px;
+			padding-top: 130px;
+			border-radius: 0;
+			margin: 0 0 0 -212px;
+			width: 422px;
+		}
+}
+
+//navbar
+//********************************
+.navbar{
+	z-index: 1;
+}
+.navbar-brand {
+	padding-right: 5vw;
+	img {
+		display: initial;
+		max-height: 35px;
+	}
+}
+
+//SideBar
+//********************************
+#sidebar{
+	padding-top: 45px;
+	position: fixed;
+	top: 0;
+	.openstack-panel.active{
+		.openstack-spin{
+			color: #48b9c9;
+			border-left: 4px solid #48b9c9;
+		}
+	}
+	.openstack-dashboard.selenium-active{
+		a{
+			&:hover, &:focus, &:active{
+				background-color: #193B6B;
+				color: white;
+			}
+		}
+		.nav-header{
+			a{
+				.nav-header-title{
+					border: 0;
+					color: #193B6B;
+					&:hover{
+							color:white;
+					}
+				}
+			}
+		}
+	}
+}
+
+//Footer
+//********************************
+.footer-main {
+	position: fixed;
+	background-color: white;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	font-size: 12px;
+	border-top: 1px solid #48b9c9;
+	left: 0;
+	right: 0;
+	.container-fluid {
+	    border-top: 1px solid #F2E826;
+	    border-bottom: 1px solid #193B6B;
+	    height: 0px;
+	    .footer-content .cred {
+		    padding-top: 12px;
+		    padding-bottom: 15px;
+		    max-width: 1200px;
+		    margin: 0 auto;
+		}
+	}
+	a {
+	    text-decoration: underline;
+	}
+}
+
+//Other styles
+//**********************************
+#activity{
+	display: grid;
+	padding: 15px 0;
+}
+
+#date_form {
+	small{
+		display: block;
+		color: #ccc;
+		padding: 6px 0 0 50px;
+	}
+}

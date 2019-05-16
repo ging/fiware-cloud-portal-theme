@@ -1,0 +1,60 @@
+//
+// FIWARE Lab Variables
+// --------------------------------------------------
+
+
+//== Colors
+//
+//## Gray and brand colors for use across FIWARE Lab.
+
+$black:					#000 !default;
+$gray-darker:			#222222 !default;
+$gray-dark:				#5B5B5F !default;
+$gray:					#8c8c8c !default;
+$gray-light:			#c2c2c2 !default;
+$gray-lighter:			#f1f1f2 !default;
+$white:					#fff !default;
+
+$brand-primary:         #193B6B !default;
+$brand-secondary:		rgb(72, 185, 201) !default;
+$brand-success:			#5cb85c;
+$brand-info:			#5bc0de;
+$brand-warning:			#f0ad4e;
+$brand-danger:			#d9534f;
+
+$body-bg:				$white;
+
+$text-color:			#5B5B5F;
+
+$link-color:			$brand-primary;
+$link-hover-color:		darken($link-color, 15%);
+
+$border-color:			#A9A9A9;
+
+$headings-color:		$gray-dark;
+
+$table-border-color:	$border-color;
+$table-bg-hover:		#f5f5f5;
+$table-bg-odd:			#f9f9f9;
+
+$zero:					0;
+
+$border-radius-base:        0 !default;
+$border-radius-large:       6px !default;
+$border-radius-small:       3px !default;
+//== Typography
+//
+//## Fonts across FIWARE Lab
+
+$corporate-font-family-sans-serif-Regular:	"NeoTechRegular" !default;
+$corporate-font-family-sans-serif-Medium:	"NeoTechMedium" !default;
+
+$font-size-base:							13px !default;
+$font-family-base:							"Verdana", sans-serif !default;
+
+//== Navbar
+//
+//##
+
+// Basics of a navbar
+$navbar-height:								42px !default;
